@@ -1,0 +1,23 @@
+backend:
+  name: github
+  repo: your_name/repo_name
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "title", name: "title", widget: "string"}
+      - {label: "tags", name: "tags", widget: "string"}
+      - {label: "category", name: "category", widget: "string"}
+      - {label: "excerpt", name: "excerpt", widget: "string"}
+      - {label: "created", name: "created", widget: "date"}
+      - {label: "image", name: "image", widget: "string"}
+      - {label: "image_caption", name: "image_caption", widget: "string"}
+      - {label: "author", name: "author", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
