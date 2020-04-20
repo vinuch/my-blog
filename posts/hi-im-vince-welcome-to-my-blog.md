@@ -4,7 +4,7 @@ tags: introduction, about
 category: about
 excerpt: "My name is vincent edeh but everyone calls me vince "
 created: 2020-04-20T07:08:40.252Z
-image: https://res.cloudinary.com/vincecloud/image/upload/v1566560720/vincent_adfm2w.jpg
+image: ./images/steven-wong-LcemoNqHIxY-unsplash.jpg
 image_caption: "picture of me "
 author: "vincent edeh "
 ---
