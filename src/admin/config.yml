@@ -17,7 +17,7 @@ collections:
       - {label: "category", name: "category", widget: "string"}
       - {label: "excerpt", name: "excerpt", widget: "string"}
       - {label: "created", name: "created", widget: "date"}
-      - {label: "image", name: "image", widget: "string"}
+      - {label: "image", name: "image", widget: "image",  default: "/uploads/chocolate-dogecoin.jpg", media_library: config: multiple: true}
       - {label: "image_caption", name: "image_caption", widget: "string"}
       - {label: "author", name: "author", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
