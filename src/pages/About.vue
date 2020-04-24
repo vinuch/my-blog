@@ -3,10 +3,15 @@
     <div class="container mx-auto px-6 sm:px-0">
       <article class="mb-20">
         <header class="mt-10 pt-10 mb-10 text-center">
-          <h1 class="text-5xl font-bold">About</h1>
+          <h1 class="text-5xl font-bold">About Me</h1>
         </header>
         <section class="post-full-content">
           <div class="post-content text-2xl font-serif font-hairline text-gray-700 no-image">
+            <div class="p-3 m-2 bg-blue-200 float-right rounded-md relative">
+              <svg xmlns="http://www.w3.org/2000/svg" width="200" height="150" viewBox="0 0 1052.362 744.094" class="absolute" style="top: -61; left: 41%;"><path d="M100 300c50-250 100-250 150 0" stroke="#000" stroke-width="20" fill="none"/>Sorry, your browser does not support inline SVG.</svg>
+              <g-image src="~/assets/img/vince.jpeg"  class="origin-top-right shadow-2xl transform hover:-translate-y-1 hover:scale-110"></g-image>
+
+            </div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Nunc commodo finibus leo, non tempus magna vehicula ac.
