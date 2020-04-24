@@ -49,92 +49,92 @@
   </Layout>
 </template>
 
-<page-query>
-  query($id: ID!, $previousElement: ID!, $nextElement: ID!) {
-    blog(id: $id) {
-      title
-      path
-      image(width:1600, height:800)
-      image_caption
-      excerpt
-      content
-      humanTime : created(format:"DD MMMM YYYY")
-      datetime : created(format:"ddd MMM DD YYYY hh:mm:ss zZ")
-      tags {
-        id
-        title
-        path
-      }
-      category {
-        id
-        title
-        path
-        belongsTo(limit:4) {
-          totalCount
-          edges {
-            node {
-              ... on Blog {
-                title
-                path
-              }
-            }
-          }
-        }
-      }
-      author {
-        id
-        name
-        bio
-        image
-        path
-      }
-      tags {
-        id
-        title
-        path
-      }
-    }
+// <page-query>
+//   query($id: ID!, $previousElement: ID!, $nextElement: ID!) {
+//     blog(id: $id) {
+//       title
+//       path
+//       image(width:1600, height:800)
+//       image_caption
+//       excerpt
+//       content
+//       humanTime : created(format:"DD MMMM YYYY")
+//       datetime : created(format:"ddd MMM DD YYYY hh:mm:ss zZ")
+//       tags {
+//         id
+//         title
+//         path
+//       }
+//       category {
+//         id
+//         title
+//         path
+//         belongsTo(limit:4) {
+//           totalCount
+//           edges {
+//             node {
+//               ... on Blog {
+//                 title
+//                 path
+//               }
+//             }
+//           }
+//         }
+//       }
+//       author {
+//         id
+//         name
+//         bio
+//         image
+//         path
+//       }
+//       tags {
+//         id
+//         title
+//         path
+//       }
+//     }
 
-    previous: blog(id: $previousElement) {
-      title
-      excerpt
-      image(width:800)
-      path
-      timeToRead
-      category {
-        id
-        title
-      }
-      author {
-        id
-        name
-        image(width:24, height:24, fit:inside)
-        path
-      }
-    }
+//     previous: blog(id: $previousElement) {
+//       title
+//       excerpt
+//       image(width:800)
+//       path
+//       timeToRead
+//       category {
+//         id
+//         title
+//       }
+//       author {
+//         id
+//         name
+//         image(width:24, height:24, fit:inside)
+//         path
+//       }
+//     }
 
-    next: blog(id: $nextElement) {
-      title
-      excerpt
-      image(width:800)
-      path
-      timeToRead
-      category {
-        id
-        title
-      }
-      author {
-        id
-        name
-        image(width:24, height:24, fit:inside)
-        path
-      }
-    }
+//     next: blog(id: $nextElement) {
+//       title
+//       excerpt
+//       image(width:800)
+//       path
+//       timeToRead
+//       category {
+//         id
+//         title
+//       }
+//       author {
+//         id
+//         name
+//         image(width:24, height:24, fit:inside)
+//         path
+//       }
+//     }
 
 
     
-  }
-</page-query>
+//   }
+// </page-query>
 
 <script>
 import Author from "~/components/Author.vue";
