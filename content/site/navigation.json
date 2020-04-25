@@ -9,11 +9,6 @@
       "name": "About",
       "link": "/about",
       "external": false
-    },
-    {
-      "name": "Getting started",
-      "link": "/category/getting-started",
-      "external": false
     }
   ],
   "footerNavigation": [{
@@ -27,8 +22,8 @@
       "external": true
     },
     {
-      "name": "Gridsome",
-      "link": "https://www.gridsome.org",
+      "name": "Github",
+      "link": "https://www.github.com/vinuch",
       "external": true
     },
     {

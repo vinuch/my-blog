@@ -8,7 +8,7 @@ public_folder: "/uploads"
 collections:
   - name: "posts"
     label: "Posts"
-    folder: "posts"
+    folder: "contents/posts"
     create: true
     slug: "{{slug}}"
     fields:
@@ -21,3 +21,17 @@ collections:
       - {label: "image_caption", name: "image_caption", widget: "string"}
       - {label: "author", name: "author", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "authors"
+    label: "Authors"
+    folder: "contents/author"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "id", name: "id", widget: "string"}
+      - {label: "name", name: "name", widget: "string"}
+      - {label: "bio", name: "", widget: "string"}
+      - {label: "facebook", name: "", widget: "string"}
+      - {label: "twitter", name: "", widget: "string"}
+      - {label: "linkedin", name: "", widget: "string"}
+      - {label: "image", name: "", widget: "string"}

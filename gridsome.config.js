@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  siteName: 'Casper',
+  siteName: 'Developer Vince',
   siteDescription: 'an awesome Gridsome starter kit',
   siteUrl: 'http://localhost:8080',
 
@@ -28,14 +28,14 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Author',
-        path: './content/author/*.md'
+        path: 'content/author/*.md'
       }
     }, 
     {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Blog',
-        path: './posts/**/*.md',
+        path: 'content/posts/*.md',
         refs: {
           author: 'Author',
           tags: {

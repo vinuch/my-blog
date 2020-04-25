@@ -32,42 +32,42 @@
   </Layout>
 </template>
 
-// <page-query>
-//   query($id: ID!, $page:Int) {
-//     category(id: $id) {
-//       title
-//       path
-//       belongsTo(perPage: 5, page: $page) @paginate {
-//         totalCount
-//         pageInfo {
-//           totalPages
-//           currentPage
-//         }
-//         edges {
-//           node {
-//             ... on Blog {
-//               title
-//               excerpt
-//               image(width:800)
-//               path
-//               timeToRead
-//               category {
-//                 id
-//                 title
-//               }
-//               author {
-//                 id
-//                 name
-//                 image(width:24, height:24, fit:inside)
-//                 path
-//               }
-//             }
-//           }
-//         }
-//       }
-//     }  
-//   }
-// </page-query>
+<page-query>
+  query($id: ID!, $page:Int) {
+    category(id: $id) {
+      title
+      path
+      belongsTo(perPage: 5, page: $page) @paginate {
+        totalCount
+        pageInfo {
+          totalPages
+          currentPage
+        }
+        edges {
+          node {
+            ... on Blog {
+              title
+              excerpt
+              image(width:800)
+              path
+              timeToRead
+              category {
+                id
+                title
+              }
+              author {
+                id
+                name
+                image(width:24, height:24, fit:inside)
+                path
+              }
+            }
+          }
+        }
+      }
+    }  
+  }
+</page-query>
 
 <script>
 import ListItem from "~/components/ListItem.vue";
