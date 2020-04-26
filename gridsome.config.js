@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   siteName: 'Developer Vince',
-  siteDescription: 'an awesome Gridsome starter kit',
+  siteDescription: 'My takes, My views, and My opinions🌚',
   siteUrl: 'http://localhost:8080',
 
   plugins: [

@@ -2,7 +2,7 @@
   <div>
     <div class="container flex flex-wrap">
       <div class="w-full md:w-1/2">
-        <ul class="flex justify-left uppercase">
+        <ul class="flex ml-16 sm:m-0 uppercase">
           <li 
           :key="element.name" 
           v-for="(element,index) in $static.metadata.navigation" 

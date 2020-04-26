@@ -5,5 +5,5 @@ bio: Primis vitae mauris turpis ornare libero odio torquent vehicula proin conse
 facebook: https://www.facebook.com
 twitter: https://www.twitter.com/_DEVince
 linkedin: https://www.linkedin.com
-image: ./images/vince2.jpeg
+image: ./images/vince.jpeg
 ---

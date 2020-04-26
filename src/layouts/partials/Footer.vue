@@ -2,8 +2,7 @@
   <nav class="relative bg-black pt-4 pb-16 text-sm text-gray-500">
     <div class="container mx-auto flex flex-wrap justify-between h-12 items-center">
       <div class="w-full md:w-1/2 text-center md:text-left">
-      Copyright {{ currentYear }} by {{ $static.metadata.siteName }} 
-      | Design by <a href="https://github.com/vinuch" target="_blank" class="hover:text-white">Vince</a>
+      Copyright {{ currentYear }} by <a href="https://github.com/vinuch" target="_blank" class="hover:text-white">{{ $static.metadata.siteName }}</a> 
       </div>
       <div class="w-full md:w-1/2">
       <ul class="flex justify-center md:justify-end">
@@ -12,7 +11,7 @@
           :key="element.name" 
           v-for="(element,index) in $static.metadata.navigation" 
           class="hover:text-white"
-          v-bind:class="{'mr-6' : index != Object.keys($static.metadata.navigation).length - 1}"
+          v-bind:class="{'mr-6' : index != Object.keys($static.metadata.navigation).length }"
         >
           <a :href="element.link" v-if="element.external" target="_blank" rel="noopener noreferrer">{{ element.name }}</a>
           <g-link v-else :to="element.link" >{{element.name}}</g-link>
