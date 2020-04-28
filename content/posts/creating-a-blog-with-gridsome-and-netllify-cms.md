@@ -5,7 +5,7 @@ category: tutorial
 excerpt: in this article im going to walk you through creating a real blog with
   gridsome and netlify cms
 created: 2020-04-20T08:31:19.996Z
-image:  /uploads/covid-min.jpg
+image: https://res.cloudinary.com/vincecloud/image/upload/v1588108570/blog%20assets/covid-min_wehhvf.jpg
 image_caption: image of. me
 author: vince
 ---
