@@ -13,7 +13,7 @@ media_library:
 collections:
   - name: "posts"
     label: "Posts"
-    folder: "contents/posts"
+    folder: "content/posts"
     create: true
     slug: "{{slug}}"
     fields:
@@ -29,7 +29,7 @@ collections:
 
   - name: "authors"
     label: "Authors"
-    folder: "contents/author"
+    folder: "content/author"
     create: true
     slug: "{{slug}}"
     fields:
