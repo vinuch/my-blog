@@ -6,7 +6,7 @@ excerpt: in this tutorial we are going to go through how you can store you
   websites media assets on cloudinary for better browser performance.
 created: 2020-04-28T21:18:09.579Z
 image: https://res.cloudinary.com/vincecloud/image/upload/v1588108570/blog%20assets/covid-min_wehhvf.jpg
-image_caption: "corona pic "
+image_caption: corona pic
 author: vince
 ---
 Every chance I get, I water the plants, Lion! Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started. The ladies always say Khaled you smell good, I use no cologne. Cocoa butter is the key. Stay focused. Give thanks to the most high. We don’t see them, we will never see them. Always remember in the jungle there’s a lot of they in there, after you overcome they, you will make it to paradise. Let’s see what Chef Dee got that they don’t want us to eat.

@@ -35,8 +35,8 @@ collections:
     fields:
       - {label: "id", name: "id", widget: "string"}
       - {label: "name", name: "name", widget: "string"}
-      - {label: "bio", name: "", widget: "string"}
-      - {label: "facebook", name: "", widget: "string"}
-      - {label: "twitter", name: "", widget: "string"}
-      - {label: "linkedin", name: "", widget: "string"}
-      - {label: "image", name: "", widget: "string"}
+      - {label: "bio", name: "bio", widget: "string"}
+      - {label: "facebook", name: "facebook", widget: "string"}
+      - {label: "twitter", name: "twitter", widget: "string"}
+      - {label: "linkedin", name: "linkedin", widget: "string"}
+      - {label: "image", name: "image", widget: "string"}
