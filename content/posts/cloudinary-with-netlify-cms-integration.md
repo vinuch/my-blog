@@ -1,6 +1,6 @@
 ---
 title: cloudinary with netlify cms integration
-tags: "cloudinary, netlifyCMS, "
+tags: "cloudinary, netlify-cms"
 category: tutorial
 excerpt: in this tutorial we are going to go through how you can store you
   websites media assets on cloudinary for better browser performance.
