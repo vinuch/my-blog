@@ -98,7 +98,7 @@
     previous: blog(id: $previousElement) {
       title
       excerpt
-      image(width:800)
+      image
       path
       timeToRead
       category {
@@ -116,7 +116,7 @@
     next: blog(id: $nextElement) {
       title
       excerpt
-      image(width:800)
+      image
       path
       timeToRead
       category {
