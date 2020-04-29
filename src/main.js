@@ -1,3 +1,4 @@
+import '@babel/polyfill'
 import DefaultLayout from '~/layouts/Default.vue'
 import IndexLayout from '~/layouts/Index.vue'
 import VTooltip from 'v-tooltip'
@@ -14,6 +15,8 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 config.autoAddCss = false;
 library.add(fas);
 library.add(fab);
+
+module.exports = { transpileDependencies: [ 'gridsome-plugin-image-cdn' ] }
 
 export default function (Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout)
