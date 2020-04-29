@@ -7,6 +7,7 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.8.7",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.4.0",
     "@noxify/gridsome-remark-classes": "^1.0.0",
@@ -32,4 +33,3 @@
     "gridsome-plugin-tailwindcss": "^2.2.28"
   }
 }
-
