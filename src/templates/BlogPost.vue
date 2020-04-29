@@ -54,7 +54,7 @@
     blog(id: $id) {
       title
       path
-      image(width:1600, height:800)
+      image
       image_caption
       excerpt
       content

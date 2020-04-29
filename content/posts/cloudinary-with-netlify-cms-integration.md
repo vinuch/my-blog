@@ -5,7 +5,7 @@ category: tutorial
 excerpt: in this tutorial we are going to go through how you can store you
   websites media assets on cloudinary for better browser performance.
 created: 2020-04-28T21:18:09.579Z
-image: https://res.cloudinary.com/vincecloud/image/upload/v1588108570/blog%20assets/covid-min_wehhvf.jpg
+image: 1st-building-3_cuvktp.png
 image_caption: corona pic
 author: vince
 ---

@@ -6,6 +6,7 @@ backend:
 # public_folder: "/uploads"
 media_library:
   name: cloudinary
+  output_filename_only: true
   config:
     cloud_name: vincecloud
     api_key: 621382979521142
@@ -22,7 +23,7 @@ collections:
       - {label: "category", name: "category", widget: "string"}
       - {label: "excerpt", name: "excerpt", widget: "string"}
       - {label: "created", name: "created", widget: "date"}
-      - {label: "image", name: "image", widget: "image",  default: "/uploads/chocolate-dogecoin.jpg"}
+      - {label: "image", name: "image", widget: "image"}
       - {label: "image_caption", name: "image_caption", widget: "string"}
       - {label: "author", name: "author", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}

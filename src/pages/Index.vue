@@ -32,7 +32,7 @@ query($page:Int) {
       node {
         title
         excerpt
-        image(width:800)
+        image
         path
         timeToRead
         category {

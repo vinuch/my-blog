@@ -55,6 +55,25 @@ module.exports = {
         publicPath: `/admin`
       }
     },
+    {
+      use: 'gridsome-plugin-image-cdn',
+      options: {
+        site: {
+          baseUrl: 'https://vince-blog.netlify.app/'
+        },
+        cdn: {
+          baseUrl: 'https://res.cloudinary.com/vincecloud',
+          preset: 'cloudinary',
+          imagePrefix: '/image/upload/v1588110321/blog%20assets/'
+        },
+        types: [
+          {
+            typeName: 'Blog',
+            sourceField: 'image'
+          }
+        ]
+      }
+    }
   ],
 
   transformers : {
