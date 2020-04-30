@@ -2,7 +2,7 @@
   <article class="post-card bg-white">
     <a class="post-card-image-link" :href="record.path">
       <div class="post-card-image">
-        <g-image :src="record.image" class="object-cover h-full w-full"></g-image>
+        <g-image :src="record.image" :alt="record.title" class="object-cover h-full w-full"></g-image>
       </div>
     </a>
     <div class="post-card-content">

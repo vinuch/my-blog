@@ -2,6 +2,7 @@
   <header class="header relative">
     <g-image
       src="~/assets/img/header-image.jpg"
+      alt="dark background photo for header"
       width="1400"
       height="400"
       class="object-cover w-full absolute -z-10 h-full w-full"
