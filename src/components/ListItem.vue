@@ -9,7 +9,7 @@
       <a class="post-card-content-link" :href="record.path">
         <header class="post-card-header">
           <span
-            class="text-gray-500 uppercase text-xs font-medium tracking-wide"
+            class="text-gray-700 uppercase text-xs font-medium tracking-wide"
           >{{ record.category.title }}</span>
           <h2 class="post-card-title text-xl">{{ record.title }}</h2>
         </header>
