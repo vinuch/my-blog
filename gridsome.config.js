@@ -64,7 +64,7 @@ module.exports = {
         cdn: {
           baseUrl: 'https://res.cloudinary.com/vincecloud',
           preset: 'cloudinary',
-          imagePrefix: '/image/upload/v1588110321/blog%20assets/'
+          imagePrefix: '/image/upload/f_auto/v1588110321/blog%20assets/'
         },
         types: [
           {
