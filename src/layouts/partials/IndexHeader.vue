@@ -10,11 +10,17 @@
     
     <div class="flex w-full relative text-center text-gray-400 mx-auto">
       <div class="logo py-16 md:py-24 mx-auto">
-        <h2 class="m-0">
+        <h2 class="m-0 inline-flex">
           <span class="text-4xl">
-            <font-awesome :icon="['fas', 'ghost']" class="mb-1 mr-3"></font-awesome>
+            <g-image
+      src="~/assets/img/logo.png"
+      alt="dark background photo for header"
+      width="60"
+      height="60"
+    ></g-image>
+            <!-- <font-awesome :icon="['fas', 'ghost']" class="mb-1 mr-3"></font-awesome> -->
           </span>
-          <span class="text-5xl text-white">{{ $static.metadata.siteName }}</span>
+          <span class="text-4xl pl-1 text-white">{{ $static.metadata.siteName }}</span>
         </h2>
         <div class="text-gray-400 font-thin text-xl">{{ $static.metadata.siteDescription }}</div>
       </div>

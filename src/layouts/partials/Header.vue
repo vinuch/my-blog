@@ -3,12 +3,18 @@
     
     <div class="flex w-full relative text-gray-400 mx-auto bg-black px-4 sm:px-0">
       <div class="container w-full mx-auto flex flex-wrap">  
-        <div class="w-6/12 sm:w-3/12 lg:w-2/12 my-5">
+        <div class="w-6/12 sm:w-3/12 lg:w-2/12 my-5 mx-2">
         <a href="/">
           <span>
-            <font-awesome :icon="['fas', 'ghost']" class="mt-2 mr-6 sm:mr-3"></font-awesome>
+           <g-image
+      src="~/assets/img/logo.png"
+      alt="dark background photo for header"
+      width="40"
+      height="40"
+      class="inline"
+    ></g-image>
           </span>
-          <span class=" text-white">{{ $static.metadata.siteName }}</span>
+          <span class=" text-white pl-1">{{ $static.metadata.siteName }}</span>
           </a>
         </div>
         <div class="w-5/12 md:w-9/12">

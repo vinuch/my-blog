@@ -4,6 +4,7 @@ module.exports = {
   siteName: 'Developer Vince',
   siteDescription: 'My takes, My views, and My opinions🌚',
   siteUrl: 'http://localhost:8080',
+  icon: './src/assets/img/logo.png',
 
   plugins: [
     {
