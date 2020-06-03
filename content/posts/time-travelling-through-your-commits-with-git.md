@@ -3,7 +3,7 @@ title: "Time travelling through your commits with git "
 tags: git
 category: tutorial
 excerpt: "In this article I'm going to walk through undoing changes and
-  switching between versions in a git enabled project lets do it."
+  switching between versions in a git enabled project "
 created: 2020-06-03T01:56:16.737Z
 image: /time-travel_k3hzp9.jpg
 image_caption: Picture of a time capsule for time travel
@@ -13,40 +13,29 @@ Git(not to be confused with Github) is an open source version control system tha
 
 To initialize git in a project you would navigate to the root directory of that project in your preferred terminal and run
 
-```
-git init
-
-```
+`git init`
 
 you should get a message like
 
-```
-initialized empty Git repository in /Path/to/your/project
-
-```
+`initialized empty Git repository in /Path/to/your/project`
 
 then consequently to save new changes you'd first add all the changes with this command:
 
-```
-git add .
-
-```
+`git add .`
 
 then you would commit them with this shortcut command with a commit message of a description of the changes made
 
-```
-git commit -m "short commit message on the changes made on this version"
-
-```
+`git commit -m "short commit message on the changes made on this version"`
 
 Great now git is keeping track of the changes in your project, And you can see the different saved versions of your project by running
 
-```
-git log --oneline
-#You should get a response similar to this 
+`git log --oneline `
+
+You should get a response similar to this 
+
+`
 14039d6 (HEAD -> master) Initial commit
-15079d6 (HEAD -> master) Commit message you entered when you made the commit for this version
-```
+15079d6 (HEAD -> master) Commit message you entered when you made the commit for this version`
 
 you should get an output like the one above indicating the different commits in your project.
 
@@ -62,46 +51,35 @@ Now there are different ways this can be done namely **Checkout, Reset and Rever
 
 The checkout command is traditionally used to switch branches in your repo(which is out of the scope of this article but you can read about it [here](https://www.atlassian.com/git/tutorials/using-branches)) but it can also be switch between different versions of your project , to do this you would run the command git checkout \*Git commit ID\* (remember the git commit ID we talked about earlier this is where we'd use it)
 
-```
-git checkout 14039d6
-
-```
+`git checkout 14039d6`
 
 now this command will load up the state of our project at the time of this commit making everything exactly the same way it was when the commit was made. But this is just temporary and any changes made on the project at this time wont be saved or tracked it's mainly for viewing purposes you can also run tests on it, and when you are done you can switch back to the current state of your project by running this command
 
-```
-git checkout HEAD
-
-```
+`git checkout HEAD`
 
 **Git Resest**
 
 The reset command (as the name implies) completely resets your project to a particular version you choose it is important to note that when this is done it deletes all the versions after the chosen version. So lets say our commit history looks like this :
 
-```
-$ git log --oneline
-1061e79 deleted content from demo file
+`$ git log --oneline `
+
+`1061e79 deleted content from demo file
 86bb32e prepend content to demo file
 3602d88 add new content to demo file
-299b15f initial commit
-```
+299b15f initial commit`
 
 (Quick note: git log presents your commit history in in order of last to first so your last commit is on top)
 
 and we would like to completely reset our project to the second commit (ie:602d88 add new content to demo file) we would run this command
 
-```
-git reset --hard 602d88
-
-```
+`git reset --hard 602d88`
 
 now when we check our commit history again it looks like this
 
-```
-$ git log --oneline
-3602d88 add new content to demo file
-299b15f initial commit
-```
+`$ git log --oneline`
+
+`3602d88 add new content to demo file
+299b15f initial commit`
 
 we have basically moved back in time to the commit where we 'add new content to demo file '
 
@@ -113,31 +91,26 @@ Finally we have the git revert command now the way this one works is it takes a 
 
 so lets say our commit history still looks like this
 
-```
-$ git log --oneline
-1061e79 deleted content from demo file
+`$ git log --oneline `
+
+`1061e79 deleted content from demo file
 86bb32e prepend content to demo file
 3602d88 add new content to demo file
-299b15f initial commit
-```
+299b15f initial commit`
 
 and we want to revert to the third commit (ie: 86bb32e prepend content to demo file) we would do so by running
 
-```
-git revert 86bb32e
-
-```
+`git revert 86bb32e`
 
 now when we check our commit history it looks like this
 
-```
-$ git log --oneline
-1061e79 Revert "prepend content to demo file"
+`$ git log --oneline `
+
+`1061e79 Revert "prepend content to demo file"
 1061e79 deleted content from demo file
 86bb32e prepend content to demo file
 3602d88 add new content to demo file
-299b15f initial commit
-```
+299b15f initial commit`
 
 as you see a new commit has been added to the commit tree (1061e79 Revert "prepend content to demo file") and our project now looks as it did when we made the 'prepend content to demo file' commit .
 
