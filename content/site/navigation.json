@@ -9,6 +9,11 @@
       "name": "About",
       "link": "/about",
       "external": false
+    },
+    {
+      "name": "Portfolio",
+      "link": "/portfolio",
+      "external": false
     }
   ],
   "footerNavigation": [{

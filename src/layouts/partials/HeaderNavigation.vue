@@ -2,12 +2,12 @@
   <div>
     <div class="container flex flex-wrap">
       <div class="w-full md:w-1/2">
-        <ul class="flex ml-16 pt-1 sm:m-0 uppercase">
+        <ul class="flex pt-1 sm:m-0 uppercase">
           <li 
           :key="element.name" 
           v-for="(element,index) in $static.metadata.navigation" 
           class="hover:text-white"
-          v-bind:class="{'mr-6' : index != Object.keys($static.metadata.navigation).length - 1}"
+          v-bind:class="{'mr-2 text-xs' : index != Object.keys($static.metadata.navigation).length - 1}"
         >
           <a :href="element.link" v-if="element.external" target="_blank" rel="noopener noreferrer">{{ element.name }}</a>
           <g-link v-else :to="element.link" >{{element.name}}</g-link>
@@ -49,3 +49,9 @@ query {
   }
 }
 </static-query>
+
+<style scoped>
+  a.active--exact.active {
+    color: white;
+  }
+</style>

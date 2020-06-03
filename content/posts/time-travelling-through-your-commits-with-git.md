@@ -3,7 +3,7 @@ title: "Time travelling through your commits with git "
 tags: git
 category: tutorial
 excerpt: "In this article I'm going to walk through undoing changes and
-  switching between versions in a git enabled project "
+  switching between versions in a git enabled project lets do it."
 created: 2020-06-03T01:56:16.737Z
 image: /time-travel_k3hzp9.jpg
 image_caption: Picture of a time capsule for time travel

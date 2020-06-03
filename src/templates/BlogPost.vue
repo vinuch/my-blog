@@ -14,7 +14,7 @@
       <h1 class="text-4xl font-bold">{{ $page.blog.title}}</h1>
     </section>
     <section class="post-image mx-auto w-full xl:px-20">
-      <g-image :src="$page.blog.image"></g-image>
+      <g-image class="w-full" :src="$page.blog.image"></g-image>
     </section>
 
     <section class="post-content container mx-auto bg-white relative p-10 font-serif text-gray-700">
@@ -39,7 +39,7 @@
 
       <div class="container mx-auto px-6 sm:px-0 flex flex-wrap">
 
-        <BlogRelatedCategory :record="$page.blog.category"></BlogRelatedCategory>
+        <!-- <BlogRelatedCategory :record="$page.blog.category"></BlogRelatedCategory> -->
         <ListItem v-if="$page.previous" :record="$page.previous"></ListItem>
         <ListItem v-if="$page.next" :record="$page.next"></ListItem>
 

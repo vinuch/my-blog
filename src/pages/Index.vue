@@ -68,6 +68,9 @@ export default {
 </script>
 
 <style>
+a.active--exact.active {
+    color: white;
+  }
 .home-links a {
   margin-right: 1rem;
 }

@@ -21,7 +21,7 @@
               <br><br>
               when im not coding I'm either playing basketball somewhere, watching a romantic comedy at home or just scrolling aimelessly on <a href="https://twitter.com/_DEVince">twitter</a> 😁.
               <br><br>
-              so yeah thats basically what im about, stick around and i really hope you enjoy the content, also I'd really apprecieate feedback in the comments.
+              so yeah thats basically what I'm about, stick around and I really hope you enjoy the content, also I'd really apprecieate feedback in the comments.
 
             </p>
           </div>

@@ -15,7 +15,6 @@
           <div class="w-full text-center pb-5">
             <h2 class="text-white pb-0 mb-0">{{ $page.author.name}}</h2>
             <span class="text-lg">{{ $page.author.bio }}</span>
-            <span>{{ $page.author.belongsTo.totalCount }} {{ postLabel }}</span> 
           </div>
           <div class="w-full text-center pb-32">
 

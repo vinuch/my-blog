@@ -14,7 +14,7 @@
       class="inline"
     ></g-image>
           </span>
-          <span class=" text-white pl-1">{{ $static.metadata.siteName }}</span>
+          <span class=" text-white pl-1 text-sm">{{ $static.metadata.siteName }}</span>
           </a>
         </div>
         <div class="w-5/12 md:w-9/12">
