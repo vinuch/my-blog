@@ -14,6 +14,11 @@
       "name": "Portfolio",
       "link": "/portfolio",
       "external": false
+    },
+    {
+      "name": "Resume",
+      "link": "https://docs.google.com/document/d/1E3oKwIQRr88Jw2SENX3VVlqNFUlX__NQGKeXfBDwjow/edit?usp=sharing",
+      "external": true
     }
   ],
   "footerNavigation": [{

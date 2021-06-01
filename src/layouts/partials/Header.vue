@@ -3,7 +3,7 @@
     
     <div class="flex w-full relative text-gray-400 mx-auto bg-black px-4 sm:px-0">
       <div class="container w-full mx-auto flex flex-wrap">  
-        <div class="w-6/12 sm:w-3/12 lg:w-2/12 my-5 mx-2">
+        <div class="w-full md:w-6/12 sm:w-3/12 lg:w-2/12 my-5 mx-2">
         <a href="/">
           <span>
            <g-image
@@ -17,8 +17,8 @@
           <span class=" text-white pl-1 text-sm">{{ $static.metadata.siteName }}</span>
           </a>
         </div>
-        <div class="w-5/12 md:w-9/12">
-          <div class="flex-1 text-gray-500 text-xs text-center my-6 pt-1">
+        <div class="w-full md:w-5/12 md:w-9/12">
+          <div class="flex-1 text-gray-500 text-xs text-center mb-6 pt-1">
             <HeaderNavigation/>
           </div>
         </div>
