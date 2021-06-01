@@ -1,0 +1,43 @@
+backend:
+  name: github
+  repo: vinuch/my-blog
+
+# media_folder: "static/uploads"
+# public_folder: "/uploads"
+media_library:
+  name: cloudinary
+  output_filename_only: true
+  config:
+    cloud_name: vincecloud
+    api_key: 621382979521142
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "title", name: "title", widget: "string"}
+      - {label: "tags", name: "tags", widget: "string"}
+      - {label: "category", name: "category", widget: "string"}
+      - {label: "excerpt", name: "excerpt", widget: "string"}
+      - {label: "created", name: "created", widget: "date"}
+      - {label: "image", name: "image", widget: "image"}
+      - {label: "image_caption", name: "image_caption", widget: "string"}
+      - {label: "author", name: "author", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "authors"
+    label: "Authors"
+    folder: "content/author"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "id", name: "id", widget: "string"}
+      - {label: "name", name: "name", widget: "string"}
+      - {label: "bio", name: "bio", widget: "string"}
+      - {label: "facebook", name: "facebook", widget: "string"}
+      - {label: "twitter", name: "twitter", widget: "string"}
+      - {label: "linkedin", name: "linkedin", widget: "string"}
+      - {label: "image", name: "image", widget: "string"}
