@@ -43,6 +43,12 @@
     }
   ],
   "portfolioProjects": [{
+    "title": "Simplify Retail POS",
+    "description": "This is a stand alone web app that comes with many features that help businesses to manage day to day sales, inventory, Orders and much more. I was part of the team ",
+    "link": "https://retailpos.yoursimplify.ng/login",
+    "img": "retail.png",
+    "tools": ["Angular", "SCSS"]
+  },{
     "title": "Satellite Kitchen restaurant",
     "description": "Satellite kitchen restarant is an eatery in lagos that I developed a landing page For to help them take their order management online, it uses strapi as a backend to store the menu and other meta information and VueJs on the frontend.",
     "link": "https://satellite-kitchen.netlify.app",
