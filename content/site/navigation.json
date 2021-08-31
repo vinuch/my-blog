@@ -43,6 +43,12 @@
     }
   ],
   "portfolioProjects": [{
+    "title": "Sportpunch Bet",
+    "description": "This is a blockchain powered betting platform built with Nuxt and tailwindcss. In this project, I lead efforts on the frontend which involved UI implementation, handling mobile responsiveness and other frontend optimization efforts. I setup and managed the frontend deployment environment using AWS s3 and cloudfront, I also worked along side the backend developer, project manager and product owners to deliver on this project ",
+    "link": "https://sportpunct.bet",
+    "img": "sportpunch.png",
+    "tools": ["Nuxt", "tailwindcss", "AWS S3"]
+  },{
     "title": "Simplify Retail POS",
     "description": "This is a stand alone web app that comes with many features that help businesses to manage day to day sales, inventory, Orders and much more. I was part of the team ",
     "link": "https://retailpos.yoursimplify.ng/login",
