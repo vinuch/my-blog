@@ -18,7 +18,7 @@
     "gridsome-source-static-meta": "noxify/gridsome-source-static-meta#master",
     "lodash": "^4.17.15",
     "netlify-cms": "^2.10.45",
-    "node-sass": "^4.14.0",
+    "node-sass": "^7.0.0",
     "pluralize": "^8.0.0",
     "redux": "^2.0.0",
     "sass-loader": "^8.0.2",
