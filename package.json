@@ -22,7 +22,7 @@
     "pluralize": "^8.0.0",
     "redux": "^2.0.0",
     "sass-loader": "^8.0.2",
-    "sharp": "^0.25.2",
+    "sharp": "^0.30.5",
     "tailwindcss": "^1.1.4",
     "tailwindcss-tables": "^0.4.0",
     "v-tooltip": "^2.0.2"
